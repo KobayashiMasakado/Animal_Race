@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>33d27b96-0970-45dd-ba5c-04a726dfdc18</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{2b766a06-04b8-48a0-9997-90bca1c8c26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{5011a7d0-db01-46dc-98ac-1056bceaed8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{752a74c2-1466-490f-8e17-b279a686f745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e2d34002-ace5-416b-9996-383014842321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{a012bc32-55f2-4d92-b9d3-4692a88c503f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionDebug">
+      <UniqueIdentifier>{a8543df1-21b5-43be-a3b8-c8edf549ea05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{bbc322d6-c538-43da-84b5-38d19434f928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{18ffff3c-5c08-41bf-ab15-1c193fcd16f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>c2d376cd-01d3-4161-ae70-8caf697a9abf</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{7b42ba2c-dbf9-4cc4-9b55-9bc2d8b789cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{065199a3-8d87-4934-8688-a0c42145da29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{574be8e1-0164-4ee0-b4fa-617dae0618a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{84348dda-c210-45bd-b388-6f5319419838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{79472c5f-5e6e-48ef-8aea-2f38ce1e5739}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftSideCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="RightSideCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj3D.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCapsule.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionField.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMesh.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>CollisionDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCapsule.h">
+      <Filter>CollisionDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePlay.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneResult.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSelect.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCreate.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectCreate.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Root.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSphere.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugBox.h">
+      <Filter>CollisionDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSphere.h">
+      <Filter>CollisionDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="ADX2Le.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Myeffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDate.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemEffect.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Meat.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MeatEffect.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="LeafEffect.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Fun.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="FunEffect.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBoss.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDate.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Blink.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GridFloor.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftSideCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="RightSideCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj3d.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCapsule.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMesh.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>CollisionDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCapsule.cpp">
+      <Filter>CollisionDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePlay.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneResult.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSelect.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCreate.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Root.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSphere.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugBox.cpp">
+      <Filter>CollisionDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSphere.cpp">
+      <Filter>CollisionDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="ADX2Le.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDate.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemEffect.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Meat.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MeatEffect.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Fun.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="FunEffect.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="LeafEffect.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBoss.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureDate.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Blink.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GridFloor.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Textures\Datyou.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="FBX\savanna.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Ostrich&amp;Human.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\newSavanna.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Tiger.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Item.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\esaC.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Fun.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Root.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\puddle.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\O&amp;Hbody.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\O&amp;HlegL.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\O&amp;HlegR.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\TigerB.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\TigerL.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\TigerR.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\RakudaB.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\RakudaL.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\RakudaR.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Rakuda.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\shadow.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\RaceGoal.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DebugCapsule.inc">
+      <Filter>CollisionDebug</Filter>
+    </None>
+    <None Include="Particle.hlsli">
+      <Filter>Other</Filter>
+    </None>
+    <None Include="PixelShader.inc">
+      <Filter>Other</Filter>
+    </None>
+    <None Include="VertexShader.inc">
+      <Filter>Other</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ParticleGS.hlsl">
+      <Filter>Other</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePS.hlsl">
+      <Filter>Other</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleVS.hlsl">
+      <Filter>Other</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
