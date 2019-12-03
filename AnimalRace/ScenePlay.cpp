@@ -631,9 +631,7 @@ void ScenePlay::CreateDeviceDependentResources()
 			basicEffect->SetEmissiveColor(Vector3(1.0f, 1.0f, 1.0f));
 		}
 	});
-	//床のコリジョンメッシュを作成
-	m_floorMesh = std::make_unique<CollisionMesh>(device, L"Resources\\Models\\Root.obj");
-	m_floorMesh->SetGame(m_game);
+	
 	m_floorModel = Model::CreateFromCMO(device, L"Resources\\Models\\Root.cmo", fx);
 	m_floorModel->UpdateEffects([&](IEffect* effect)
 	{
@@ -673,6 +671,11 @@ void ScenePlay::CreateDeviceDependentResources()
 			basicEffect->SetEmissiveColor(Vector3(1.0f, 1.0f, 1.0f));
 		}
 	});
+
+	//床のコリジョンメッシュを作成
+	m_floorMesh = std::make_unique<CollisionMesh>(device, L"FBX\\Root.obj");
+	m_floorMesh->SetGame(m_game);
+
 }
 
 /// <summary>
