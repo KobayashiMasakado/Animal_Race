@@ -673,7 +673,7 @@ void ScenePlay::CreateDeviceDependentResources()
 	});
 
 	//床のコリジョンメッシュを作成
-	m_floorMesh = std::make_unique<CollisionMesh>(device, L"FBX\\Root.obj");
+	m_floorMesh = std::make_unique<CollisionMesh>(device, L"Resources\\Models\\Root.obj");
 	m_floorMesh->SetGame(m_game);
 
 }
